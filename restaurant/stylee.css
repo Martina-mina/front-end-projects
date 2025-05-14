@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+   scroll-behavior:smooth ;
+}
+#home{
+   height: 600px;
+    background-image: url(images/shutterstock_277750193.jpg);
+    background-size: 100% 100%;
+    font-family:  serif;
+    font-weight: 400;
+    font-style:normal;
+   
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.664);
+}
+.logo img{
+    float:left;
+    width: 130px;
+    height: 50px;
+    margin-left:  70px;
+}
+.clr{
+    clear:both ;
+}
+.links{
+    margin-right: 100px;
+    float: right;
+}
+.links ul{
+    list-style-type: none;
+   
+}
+.links li{
+    float: left;
+   padding:13px 25px ;
+  
+}
+
+
+.info{
+    text-align: center;
+    margin: auto;
+   padding-top: 125px;
+    color: aliceblue;
+    font-size:x-large;
+}
+#home .info h1 , #home .info p{
+    line-height:40px;
+}
+
+#home .info button{
+    padding: 10px;
+    font-size: 17px;
+    margin-top: 2%;
+    border-radius: 20px;
+    color: #635846;
+    border-color:#c1ab84;
+    border-width: 2px;
+}
+#home .info button:hover{
+    color: #ffffff;
+    border-color:#c1ab84;
+    background-color: #88785d;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: large;
+}
+
+#about{
+    height: 100vh;
+}
+.chef{
+    float:left;
+    
+}
+#about .chef img{
+  
+    height: 600px ;
+}
+.information{
+    text-align: center;
+   padding: 5% 10% 5% 0%;
+
+    line-height: 50px;
+    font-size: larger;
+}
+.information h2{
+    color: #9c8b6e;
+
+}
+.information button{
+    border-width: 2px;
+    border-color:#7a6d55;
+    color: #635846;
+    font-size: larger;
+    padding: 10px;
+    margin-top: 30px;
+
+}
+#gallery{
+    height: 500px;
+    background-attachment: fixed;
+    background-image: url(images/bg.jpg);
+    background-size: 100% 100%;
+}
+#photos{
+   height: 90vh;
+   
+}
+.ourmeals{
+    text-align: center;
+    padding: 45px;
+    font-size: x-large;
+    font-weight: 900;
+    
+}
+.line{
+    width: 100px;
+    height: 3px;
+    background-color:rgb(63, 202, 44);
+    margin: auto;
+    margin-top:5px ;
+    margin-bottom:5px ;
+}
+.img{ 
+    float: left;
+    width: 24.2%;
+    text-align: center;
+    padding: 5px;
+   line-height: 25px;
+    margin-top: 2%;
+
+}
+.img img{
+    border-radius: 15px;
+}
