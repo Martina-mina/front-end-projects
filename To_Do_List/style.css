@@ -1,0 +1,136 @@
+:root{
+    --bg:#000430;
+    --sbg:#171c48;
+    --txt:#fff;
+    --purble:#828dff;
+    --teal:#24feee;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--bg);
+    color:var(--txt);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 120px auto 0 auto;
+    max-width: 500px;
+}
+.stats-container{
+    padding: 30px;
+    border-radius:20px ;
+    border:3px solid var(--purble);
+    display: flex;
+    gap: 50px;
+    width: 100% ;
+    justify-content: space-between;
+}
+.detailes{
+    width: 100%;
+}
+#progress{
+    width:80%;
+    height: 10px;
+    background-color: var(--teal);
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+#numbers{
+    width: 100px;
+    height: 100px;
+    background-color: var(--purble);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50% ;
+    font-size: 30px;
+    font-weight: bold;
+}
+#progressBar{
+    width: 100%;
+    height: 10px;
+    background-color: var(--sbg);
+    border-radius:5px ;
+    margin-top: 20px;
+
+}
+
+form{
+    margin-top: 60px;
+    width:100%;
+    display: flex;
+    gap:10px;
+}
+input{
+    flex:1;
+    padding: 16px;
+    background-color: var(--sbg);
+    border:3px solid var(--purble);
+    border-radius: 10px;
+    outline: none;
+    color: var(--txt);
+    font-size: 20px;
+}
+button{
+    width: 50px;
+    height: 50px;
+    background-color: var(--purble);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:50% ;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--txt);
+    outline: none;
+}
+
+
+.task-list{
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+    margin-top: 30px;
+    width:100%;
+    list-style: none;
+   
+}
+.task-content{
+    display: flex;
+    width:100%;
+    background-color:var(--sbg) ;
+    padding: 10px;
+    border-radius:10px ;
+    justify-content: space-between;
+    text-align: center;
+}
+.task{
+    display: flex;
+    justify-content:center;
+    gap:10px;
+    font-size: larger;
+}
+.checkbox{
+    width: 30px;
+    height: 30px;
+}
+.icons img{
+    width: 35px;
+    height: 35px;
+    /* float: right; */
+    cursor: pointer;
+}
+.completed {
+    text-decoration: line-through;
+    color: --teal
+    
+}
+
