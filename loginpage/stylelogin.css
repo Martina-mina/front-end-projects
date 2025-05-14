@@ -1,0 +1,134 @@
+body{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    min-height: 100vh;
+    background-image:url(img/p.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+.container{
+    width:30%;
+    margin: auto;
+    border: 2px solid rgba(255, 255, 255, 0.26);
+    backdrop-filter:blur(20px);
+    border-radius: 10px;
+    height: 80%;
+    padding: 0%;
+    box-sizing: border-box;
+  margin:10px 0px 30px  ;
+  margin: auto;
+  color: aliceblue;
+  
+}
+.container h1{
+margin: auto;
+justify-content: center;
+text-align: center;
+margin: 10px;
+text-align: center;
+/* color: rgb(245, 85, 110); */
+}
+
+.part{
+    display: flex;
+    width:100%;
+}
+.lable{
+    width:85%;
+    padding: 0px 0px 0px 40px ;
+    color :rgb(255, 255, 255);
+    
+}
+.icon{
+    width:6%;
+    float: right;
+    border-radius: 8px;
+    margin-right: 25px;
+    padding-bottom: 0px;
+
+}
+.icon img{
+    width:100%;
+}
+#inp{
+    width: 85%;
+    color:white;
+    border-style: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.26);
+    padding:2px ;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    background-color: transparent;
+}
+.lastpart1{
+    justify-content: left;
+    width:60%;
+    margin: auto;
+    font-size: 16px;
+}
+.lastpart1 label , p{
+    font-size: 16px;
+}
+.check{
+float: left;
+margin-top:5px;
+padding: 2px;
+
+}
+.lastpart2{
+   width:60%;
+   margin: auto;
+   text-align: center;
+   justify-content: center;
+  
+}
+span{
+    text-decoration: underline;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+}
+
+button{
+    padding: 5px 100px;
+    margin-top: 15px;
+    color:rgb(255, 255, 255);
+    /* background-color: transparent; */
+    background:linear-gradient(to right, #f8cf0e,#b20603,#b20603,#22021b);
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 15px;
+   border: none;
+    /* border: 2px solid rgb(255, 255, 255); */
+}
+
+
+
+/* 
+input{
+   
+
+}
+lable{
+    
+    margin: 40px;
+    background-color: bisque;
+    display: inline-block;
+}
+
+.icon{
+    width:20%;
+    display: flex;
+    background-color: blue;
+}
+.icon img{
+    width: 100%;
+}
+.dilable{
+    display: inline-block;
+    width: 100%;
+}
+.laaable{
+    width: 50%;
+} */
